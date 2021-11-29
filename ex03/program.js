@@ -21,9 +21,9 @@ function firstNonRepeatingCharacter(string) {
     }
     return -1;
 }
-
-console.log(firstNonRepeatingCharacter("abcadbdcff"))
-  
+console.time('toto');
+console.log(firstNonRepeatingCharacter("aazzcce"))
+  console.timeEnd('toto');
     
 // Do not edit the line below.
 exports.firstNonRepeatingCharacter = firstNonRepeatingCharacter;
