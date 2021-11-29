@@ -16,8 +16,8 @@ function levDist(str1, str2) {
 }
 
 
-str1 = "abcg"
-str2 = 'adcd'
+str1 = "toto"
+str2 = 'bbbtoto'
 
 console.time('toto');
 console.log(levDist(str1, str2));
